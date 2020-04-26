@@ -1,0 +1,62 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainBox {
+    margin: auto;
+    width: 700px;
+    border: solid darkslategrey 5px;
+    padding: 50px 10px;
+    background-color: white;
+}
+
+h1 {
+    font-weight: bold;
+    color: darkslategrey;
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.buttons {
+    background-color: cadetblue;
+    color: darkslategray;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+#inputSection {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+}
+
+#startText {
+    border: solid 2px darkslategray;
+    width: 500px;
+    padding: 10px 5px;
+    color: darkslategrey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#outputText {
+    margin: auto;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align : center;
+    padding-bottom: 20px;
+    width: 670px;
+}
+
+#spongebob {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
