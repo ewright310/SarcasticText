@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <title>Sarcastic Meme Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="mainBox">
+        <header>
+            <h1>Sarcastic Meme Generator</h1>
+            <p>Enter text in the box below to turn it into a sarcastic meme. Start over using the clear button. Download your meme using the download meme button.</p>
+        </header>
+        <section id="topPart">
+            <div id="inputSection">
+                <input type:"text" id="startText" placeholder="Enter your text here..." maxlength="100">
+                <br/>
+                <caption>Max. 100 Characters</caption>
+            </div>
+                <nav>
+                    <input class="buttons" id="submitButton" type="submit" value="Submit Text" >
+                    <input class="buttons" id="clearButton" type="button" value="Clear All" >
+                </nav>
+        </section>
+        <section id="output">
+            <div id="outputText">
+            </div>
+            <div>
+                <img src="images/spongebob.jpg" id="spongebob" alt="Sarcastic Spongebob" />
+            </div>
+        </section>
+    </section>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
